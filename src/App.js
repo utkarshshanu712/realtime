@@ -4,7 +4,7 @@ import "./App.css";
 import io from "socket.io-client";
 
 // Replace with your deployed backend URL
-const socket = io("https://your-app-name.onrender.com");
+const socket = io("https://server-0zem.onrender.com");
 
 function App() {
   const [messages, setMessages] = useState([]);
